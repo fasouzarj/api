@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<h3>Gereções de 1500 até hoje!</h3>
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(msg) {
+        document.write(msg);
+        pulaLinha();
+    }
+
+    var anoAtual = 2023;
+    var anosPassados = anoAtual - 1500;
+    var mediaDeGeracoes = Math.round(anosPassados / 28);
+
+    mostra("Se passaram " + anosPassados + " de 1500 até hoje!");
+    mostra("E há, aproximadamente, " + mediaDeGeracoes + " gerações de 1500 até hoje!");
+
+</script>
